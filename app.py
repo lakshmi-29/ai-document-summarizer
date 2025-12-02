@@ -3,7 +3,7 @@ from transformers import pipeline
 import PyPDF2
 
 st.title("AI Document Summarizer")
-st.write("Upload your PDF/text file to summarize it.")
+st.write("Upload your PDF and text file to summarize it.")
 
 # File uploader
 uploaded_file = st.file_uploader("Choose a file", type=['pdf', 'txt'])
